@@ -1,6 +1,6 @@
-[submodule "/home/guso/.vim/pack/guso/start/delimitMate"]
-	path = /home/guso/.vim/pack/guso/start/delimitMate
+[submodule "vim/pack/guso/start/delimitMate"]
+	path = vim/pack/guso/start/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
-[submodule "/home/guso/.vim/pack/guso/start/dirsettings"]
-	path = /home/guso/.vim/pack/guso/start/dirsettings
+[submodule "vim/pack/guso/start/dirsettings"]
+	path = vim/pack/guso/start/dirsettings
 	url = https://github.com/chazy/dirsettings.git
