@@ -10,3 +10,6 @@
 [submodule "pack/guso/start/vim-markdown"]
 	path = pack/guso/start/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "pack/guso/start/ack.vim"]
+	path = pack/guso/start/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
