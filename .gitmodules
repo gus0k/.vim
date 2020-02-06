@@ -4,9 +4,6 @@
 [submodule "pack/guso/start/dirsettings"]
 	path = pack/guso/start/dirsettings
 	url = https://github.com/chazy/dirsettings.git
-[submodule "pack/guso/start/vimwiki"]
-	path = pack/guso/start/vimwiki
-	url = https://github.com/vimwiki/vimwiki.git
 [submodule "pack/guso/start/todo.txt-vim"]
 	path = pack/guso/start/todo.txt-vim
 	url = https://github.com/freitass/todo.txt-vim.git
