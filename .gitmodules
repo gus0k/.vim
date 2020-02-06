@@ -10,3 +10,6 @@
 [submodule "pack/guso/start/todo.txt-vim"]
 	path = pack/guso/start/todo.txt-vim
 	url = https://github.com/freitass/todo.txt-vim.git
+[submodule "pack/guso/start/vim-markdown"]
+	path = pack/guso/start/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
