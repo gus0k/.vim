@@ -4,3 +4,6 @@
 [submodule "vim/pack/guso/start/dirsettings"]
 	path = vim/pack/guso/start/dirsettings
 	url = https://github.com/chazy/dirsettings.git
+[submodule "pack/guso/start/vimwiki"]
+	path = pack/guso/start/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git
