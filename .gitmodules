@@ -1,0 +1,3 @@
+[submodule "/home/guso/.vim/pack/guso/start/delimitMate"]
+	path = /home/guso/.vim/pack/guso/start/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
