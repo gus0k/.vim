@@ -7,6 +7,8 @@ set nu rnu
 syntax enable
 filetype plugin on
 
+set noswapfile
+
 
 " FINDING FILES:
 "
@@ -29,3 +31,9 @@ let g:netrw_list_hid=netrw_gitignore#Hide()
 " Move up/down editor lines
 noremap j gj
 noremap k gk
+
+
+" SET UP VIMWIKI
+"
+let g:vimwiki_list = [{'path': '~/notes/', 
+		\ 'syntax': 'markdown', 'ext': '.md'}]

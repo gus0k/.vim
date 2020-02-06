@@ -15,8 +15,8 @@ git submodule update --init
 
 ```sh
 submodule init
-git submodule add https://github.com/vim-airline/vim-airline.git vim/pack/shapeshed/start/vim-airline
-git add .gitmodules vim/pack/shapeshed/start/vim-airline
+git submodule add https://github.com/vim-airline/vim-airline.git pack/guso/start/vim-airline
+git add .gitmodules pack/guso/start/vim-airline
 git commit
 ```
 
@@ -30,8 +30,8 @@ git commit
 ### Remove a package
 
 ```sh
-git submodule deinit vim/pack/shapeshed/start/vim-airline
-git rm vim/pack/shapeshed/start/vim-airline
-rm -Rf .git/modules/vim/pack/shapeshed/start/vim-airline
+git submodule deinit pack/guso/start/vim-airline
+git rm pack/guso/start/vim-airline
+rm -Rf .git/modules/pack/guso/start/vim-airline
 git commit
 ```
