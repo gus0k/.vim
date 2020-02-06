@@ -13,3 +13,6 @@
 [submodule "pack/guso/start/ack.vim"]
 	path = pack/guso/start/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
+[submodule "pack/guso/start/ultisnips"]
+	path = pack/guso/start/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
