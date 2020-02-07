@@ -1,5 +1,3 @@
-
-
 ## Installation
 
 ```sh
@@ -35,3 +33,5 @@ git rm pack/guso/start/vim-airline
 rm -Rf .git/modules/pack/guso/start/vim-airline
 git commit
 ```
+
+
