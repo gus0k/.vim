@@ -37,3 +37,12 @@ noremap k gk
 "
 let g:vimwiki_list = [{'path': '~/notes/', 
 		\ 'syntax': 'markdown', 'ext': '.md'}]
+
+" Set up Vimtex
+let g:tex_flavor = 'latex'
+let g:vimtex_compiler_progname = 'latexmk'
+let g:vimtex_compiler_latexmk = {
+    \ 'build_dir' : 'build',
+    \}
+let g:vimtex_view_method = 'zathura'
+let g:vimtex_view_forward_search_on_start = 1

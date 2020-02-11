@@ -1,6 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/guso/Downloads'
 let g:netrw_dirhist_2='/home/guso/.vim/.git/modules/home/guso/.vim'
 let g:netrw_dirhist_3='/home/gus0k/github/dotfiles'
 let g:netrw_dirhist_4='/home/gus0k/github/dotfiles/scripts'
+let g:netrw_dirhist_5='/home/guso/github/dotfiles'
+let g:netrw_dirhist_6='/home/guso/github'
+let g:netrw_dirhist_7='/home/guso/github/dotfiles/utils'
+let g:netrw_dirhist_8='/home/guso/github/dotfiles/scripts'
+let g:netrw_dirhist_9='/home/guso/github/dotfiles'
