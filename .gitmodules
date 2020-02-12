@@ -22,3 +22,6 @@
 [submodule "pack/guso/start/vimtex"]
 	path = pack/guso/start/vimtex
 	url = https://github.com/lervag/vimtex.git
+[submodule "pack/guso/start/vim-airline"]
+	path = pack/guso/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
