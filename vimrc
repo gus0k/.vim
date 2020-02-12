@@ -3,13 +3,34 @@ set nocompatible
 
 " Relative numbers
 set nu rnu
+set autoindent
+set expandtab
+set smarttab
+set tabstop=4
+set shiftwidth=4
 
 syntax enable
 filetype plugin on
 
 set noswapfile
 
+set hidden " Instead of closing files, it hides them
+set backspace=indent,eol,start
+set hlsearch
+set incsearch
 
+set history=1000         " remember more commands and search history
+set undolevels=1000      " use many muchos levels of undo
+set title
+set visualbell
+set noerrorbells
+
+set mouse=a
+
+" REMAPPING
+nnoremap ; :
+
+cmap w!! w !sudo tee % >/dev/null
 " FINDING FILES:
 "
 "" Search down into subfoder and tab completition
@@ -19,6 +40,7 @@ set encoding=utf-8
 
 " Display all matching files when tab comp
 set wildmenu
+set wildignore+=.pyc,.swp
 
 " FILE BROWSING
 let g:netrw_banner=0 " disable banner
@@ -27,8 +49,12 @@ let g:netrw_altv=1 " open splits to the right
 let netrw_liststyle=3 " tree view
 let g:netrw_list_hid=netrw_gitignore#Hide()
 
+" USER INTERFACE
+set laststatus=2
+set ruler
 
 " Move up/down editor lines
+set wrap
 noremap j gj
 noremap k gk
 
@@ -46,3 +72,13 @@ let g:vimtex_compiler_latexmk = {
     \}
 let g:vimtex_view_method = 'zathura'
 let g:vimtex_view_forward_search_on_start = 1
+
+
+" SET UP ULTISNIPS
+set runtimepath+=~/.vim/my_snippets/
+let g:UltiSnipsSnippetDirectories=["UltiSnips", "my_snippets"]
+
+" Language
+setlocal spell
+set spelllang=en_gb
+inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
