@@ -2,3 +2,17 @@ snippet sr "^2" iA
 ^2
 endsnippet
 
+snippet optp "Optimization Problem"
+\begin{subequations}
+\begin{alignat}{3}
+\max_\{${2:x} \}              &\quad&  ${3: f(x)}  &&          & \label\{eq:opt$1\} \\\\
+\text{subject to: } &\quad&  ${4:x}   && ${5:\leq 0} &\quad ${6:\\forall t} \label\{eq:$1optcons1 \}\\\\
+                    &\quad&  $7   && $8   &\quad $9 \label\{eq:$1optcons2\} \\\\
+                    &\quad&  $10  && $11   &\quad $12 \label\{eq:$1optcons3\} \\\\
+\end{alignat}
+\end{subequations}
+endsnippet
+
+snippet addcons "Adding a constraint to optproblem"
+&\quad&  $1   && $2   &\quad $3 \label\{eq:$4optcons$5\} \\\\
+endsnippet

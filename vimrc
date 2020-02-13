@@ -77,6 +77,9 @@ let g:vimtex_view_forward_search_on_start = 1
 " SET UP ULTISNIPS
 set runtimepath+=~/.vim/my_snippets/
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "my_snippets"]
+let g:UltiSnipsExpandTrigger = "<c-e>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " Language
 setlocal spell
