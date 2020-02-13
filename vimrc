@@ -98,3 +98,11 @@ function! XTermPasteBegin()
   set paste
   return ""
 endfunction
+
+" VIM MARKDOWN
+let g:vim_markdown_folding_disabled = 1
+
+
+
+" PERSONAL CONFIGURATION FOR JOURNAL
+autocmd BufNewFile,BufRead $JOURNAL/entries/*.md 0r $JOURNAL/template.txt
