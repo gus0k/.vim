@@ -25,3 +25,9 @@
 [submodule "pack/guso/start/vim-airline"]
 	path = pack/guso/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim-colors-solarized"]
+	path = vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "pack/guso/start/vim-colors-solarized"]
+	path = pack/guso/start/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
