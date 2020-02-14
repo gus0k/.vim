@@ -103,6 +103,11 @@ endfunction
 let g:vim_markdown_folding_disabled = 1
 
 
+" COLORS
+"set background=dark
+"colorscheme solarized
+"let g:solarized_termcolors=256
+
 
 " PERSONAL CONFIGURATION FOR JOURNAL
-autocmd BufNewFile,BufRead $JOURNAL/entries/*.md 0r $JOURNAL/template.txt
+autocmd BufNewFile $JOURNAL/entries/*.md 0r $JOURNAL/template.txt
