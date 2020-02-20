@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/home/guso/.vim'
 let g:netrw_dirhist_2='/home/guso/.vim/my_snippets'
 let g:netrw_dirhist_3='/home/guso/github/dotfiles/scripts'
+let g:netrw_dirhist_4='/home/guso/github/cdc20_code/src'
