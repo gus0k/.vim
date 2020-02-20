@@ -134,3 +134,11 @@ if 'VIRTUAL_ENV' in os.environ:
   activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
   execfile(activate_this, dict(__file__=activate_this))
 EOF
+
+
+" Vim slime
+"let g:slime_no_mappings = 1
+"xmap <c-c><c-c> <Plug>SlimeRegionSend
+"nmap <c-c><c-c> <Plug>SlimeParagraphSend
+"nmap <c-c>v     <Plug>SlimeConfig
+let g:slime_python_ipython = 1
