@@ -101,6 +101,21 @@ endfunction
 
 " VIM MARKDOWN
 let g:vim_markdown_folding_disabled = 1
+let g:vimtex_compiler_latexmk = {
+    \ 'backend' : 'jobs',
+    \ 'background' : 1,
+    \ 'build_dir' : 'build',
+    \ 'callback' : 1,
+    \ 'continuous' : 1,
+    \ 'executable' : 'latexmk',
+    \ 'hooks' : [],
+    \ 'options' : [
+    \   '-verbose',
+    \   '-file-line-error',
+    \   '-synctex=1',
+    \   '-interaction=nonstopmode',
+    \ ],
+    \}
 
 
 " COLORS
