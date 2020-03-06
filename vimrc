@@ -48,6 +48,8 @@ let g:netrw_browse_split=4 "open in prioir windows
 let g:netrw_altv=1 " open splits to the right
 let netrw_liststyle=3 " tree view
 let g:netrw_list_hid=netrw_gitignore#Hide()
+let g:netrw_winsize = 25
+
 
 " USER INTERFACE
 set laststatus=2
@@ -58,6 +60,14 @@ set wrap
 noremap j gj
 noremap k gk
 
+" Moving between panes
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+set splitbelow
+set splitright
 
 " SET UP VIMWIKI
 "
@@ -156,4 +166,8 @@ au BufNewFile,BufRead *.py
 "xmap <c-c><c-c> <Plug>SlimeRegionSend
 "nmap <c-c><c-c> <Plug>SlimeParagraphSend
 "nmap <c-c>v     <Plug>SlimeConfig
+let g:slime_target = "tmux"
 let g:slime_python_ipython = 1
+let g:slime_default_config = {"socket_name": get(split($TMUX, ","), 0), "target_pane": ":.1"}
+
+
