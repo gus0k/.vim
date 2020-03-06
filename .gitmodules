@@ -34,3 +34,6 @@
 [submodule "pack/guso/start/vim-slime"]
 	path = pack/guso/start/vim-slime
 	url = https://github.com/jpalardy/vim-slime.git
+[submodule "pack/guso/start/vim-tmux-navigator"]
+	path = pack/guso/start/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git
